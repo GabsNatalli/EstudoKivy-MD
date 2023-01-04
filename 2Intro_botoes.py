@@ -5,8 +5,6 @@ from kivymd.uix.boxlayout import MDBoxLayout
 from kivymd.uix.button import MDFlatButton, MDIconButton, MDFloatingActionButton, MDRectangleFlatButton, MDRaisedButton, MDRectangleFlatIconButton # Criação de botão de texto 
 # / botão de icon / botão flutuante / botão retangular / botão retangular flutuante / botão retangular com texto e icone
 
-
-
 class MainApp(MDApp):
 
     Window.size = (400, 600)        # usamos Size para definirmos o tamanho da nossa tela 
